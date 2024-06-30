@@ -1,0 +1,10 @@
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 50px;
+}
+.flexbox>div {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+}
