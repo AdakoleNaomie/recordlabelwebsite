@@ -239,7 +239,8 @@ a {
     .hsvg {
         display: flex;
         padding-top: 13px;
-        margin-left: -150px;
+        margin-left: -180px;
+        
         
         
     } 
@@ -271,7 +272,7 @@ a {
         background-image: url(a13.webp);
         background-position: center;
         background-size: cover;
-        margin-left: 260px;
+        margin-left: 250px;
         margin-top: 50px;
         border-radius: 10px;
         animation-name: tems;
@@ -313,7 +314,7 @@ a {
         animation-duration: 10s;
         animation-delay: 10s;
         animation-iteration-count: infinite;
-        margin-left: 260px;
+        margin-left: 250px;
         margin-top: -30px;
     }
     @keyframes davido {
@@ -365,6 +366,7 @@ a {
         animation-iteration-count: infinite;
         margin-left: 200px;
         margin-bottom: -20px;
+        border-radius: 10px;
         
         
     
@@ -386,6 +388,7 @@ a {
         animation-iteration-count: infinite;
         margin-left: 50px;
         margin-top: 1px;
+        border-radius: 10px;
         
     }
     @keyframes omahlay {
@@ -403,6 +406,7 @@ a {
         animation-delay: 10s;
         animation-iteration-count: infinite;
         margin-left: 200px;
+        border-radius: 10px;
         
 
     }
