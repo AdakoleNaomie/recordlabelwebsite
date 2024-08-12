@@ -372,21 +372,21 @@ a {
     .no1img {
         background-image: url(a1.jpg);
         height: 400px;
-        width: 421px;
+        width: 415px;
         background-position: center;
         background-size: cover;
         border-radius: 10px;
-        margin-left: 2px;
+        margin-left: 5px;
         margin-top: 30px;
     }
     .no1img2 {
         background-image: url(a9.jpg);
         height: 400px;
-        width: 421px;
+        width: 415px;
         background-position: center;
         background-size: cover;
         border-radius: 10px;
-        margin-left: 2px;
+        margin-left: 5px;
         margin-top: 30px;
 
     }
@@ -400,22 +400,22 @@ a {
     .no1img3 {
         background-image: url(a13.webp);
         height: 400px;
-        width: 421px;
+        width: 415px;
         background-position: center;
         background-size: cover;
         border-radius: 10px;
-        margin-left: 2px;
+        margin-left: 5px;
         margin-top: 30px;
 
     }
     .no1img4 {
         background-image: url(a15.jpg);
         height: 400px;
-        width: 421px;
+        width: 415px;
         background-position: center;
         background-size: cover;
         border-radius: 10px;
-        margin-left: 2px;
+        margin-left: 5px;
         margin-top: 30px;
 
     }
