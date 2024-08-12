@@ -25,6 +25,8 @@ nav {
     justify-content: center;
     gap: 5px;
     margin-top: 1px;
+
+
     
 }
 nav a {
@@ -236,7 +238,7 @@ a {
         justify-content: center;
         gap: 5px;
         margin-top: 1px;
-        margin-left: -140px;
+        margin-left: -180px;
         margin-top: 10px;
         
     }
@@ -282,7 +284,7 @@ a {
         display: block;
     }
     ul a:hover {
-        color: black;
+        color: whitesmoke;
     }
     ul a {
         display: block;
@@ -313,7 +315,7 @@ a {
     }
     .con22 {
         color: gray;
-        margin-left: -10px;
+        text-align: center;
     }
     .con2  svg{
         margin-top: 1px;

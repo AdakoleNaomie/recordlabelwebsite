@@ -139,7 +139,7 @@ a {
         color: aliceblue;
     }
     ul a:hover {
-        color: black;
+        color: goldenrod;
     }
     ul a {
         display: block;
