@@ -120,13 +120,13 @@ a {
         display: none;
         position: absolute;
         color: white;
-        background-color:rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.3);
         z-index: 1;
         width: 420px;
         height: 300px;
         margin-left: -350px;
         border-radius: 10px;
-        animation: ease-in-out 2s ;
+    
     }
     .dropdown {
         position: relative;
