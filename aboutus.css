@@ -222,10 +222,12 @@ a {
     
 
 @media only screen and (max-width:470px){
+
     nav {
         display: none;
          
     }
+    
     .one11 {
         background-color: black;
         position: fixed;
@@ -431,6 +433,7 @@ a {
         height: 300px;
         margin-left: -350px;
         border-radius: 10px;
+        animation: ease 1s;
     }
     .dropdown1 {
         position: relative;
