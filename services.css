@@ -16,8 +16,11 @@ body {
 nav {
     display: flex;
     gap: 230px;
-    margin-left: 50px;
+    margin-left: 200px;
     margin-top: 10px;
+}
+nav a:hover{
+    color: gold;
 }
 nav a {
     text-decoration: none;
@@ -241,6 +244,299 @@ a {
 .lg {
     display: none;
 }
+
+@media only screen and (max-width:780px){
+    
+    nav {
+        display: none;
+        gap: 30px;
+        
+    }
+    nav a {
+        text-decoration: none;
+        color: ghostwhite;
+        font-size: 13px;
+
+    }
+    nav a:hover{
+        color: ghostwhite;
+    }
+
+    header {
+        background-color:black;
+        position: fixed;
+        z-index: 1;
+        width: 100vw;
+        border-bottom: 1px goldenrod solid;
+    }
+    .hsvg {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-left: -200px;
+        margin-top: 10px;
+        
+    }
+    
+    .head {
+        font-size: 15px;
+        color: ghostwhite;
+        text-align: center;
+        padding-top: 10px;
+        margin-left: -5px;
+    }
+    .add2 {
+        width: 100px;
+        height: 50px;
+        color: white;
+        visibility: visible;
+    }
+    .box2 {
+        width: 100px;
+        height: 30px;
+        color: green;
+        float: left;
+        align-items: center;
+    }
+    .dropdown-content2{
+        display: none;
+        position: absolute;
+        color: white;
+        background-color:black;
+        z-index: 1;
+        width: 422px;
+        height: 300px;
+        margin-left: -350px;
+        border-radius: 10px;
+    }
+    .dropdown2 {
+        position: relative;
+        display: inline-block;
+        margin-left: 350px;
+        
+    }
+    .dropdown2:hover  .dropdown-content2 {
+        display: block;
+    }
+    ul a:hover {
+        color: whitesmoke;
+    }
+    ul a {
+        display: block;
+        color: goldenrod;
+        padding-top: 30px;
+        padding-left: 20px;
+        font-family: georgia;
+    } 
+    .servicesdiv {
+        display: flex;
+        
+    }
+    .svg1 {
+        margin-left: 80px;
+        line-height: 50px;
+    }
+    .our {
+        font-size: 30px;
+        color: goldenrod;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: "segoe ui";
+        
+    }
+    .txt {
+        color:gray;
+        font-size: 20px;
+        margin-left: 1px;
+    }
+    .txt1 {
+        color:gray;
+        font-size: 20px;
+        margin-left: 1px;
+
+    }
+    .txt2 {
+        color: gray;
+        font-size: 1.5em;
+
+
+    }
+    .no1 {
+        margin-left: 10px;
+        line-height: 30px;
+        margin-top: 200px;
+    }
+    .txt3 {
+        color: whitesmoke;
+        font-size: 12px;
+    }
+    .txt4 {
+        height: 30px;
+        width: 150px;
+        background-color: rgb(0, 0, 0, 0.2);
+        color: yellow;
+        border: 1px gold solid;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .no1img {
+        background-image: url(a1.jpg);
+        height: 400px;
+        width: 350px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        margin-left: 400px;
+        margin-top: -310px;
+    }
+    .no1img2 {
+        background-image: url(a9.jpg);
+        height: 400px;
+        width: 350px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        margin-left:  20px;
+        margin-top: -280px;
+
+    }
+    .no22 {
+        margin-left: 400px;
+        line-height: 30px;
+        padding-top: 100px; 
+        margin-top: 150px;
+        
+    
+    }
+    .no1img3 {
+        background-image: url(a13.webp);
+        height: 400px;
+        width: 350px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        margin-left: 400px;
+        margin-top: -330px;
+
+    }
+    .no1img4 {
+        background-image: url(a15.jpg);
+        height: 400px;
+        width: 350px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: -330px;
+
+    }
+    .no33 {
+        margin-left: 400px;
+        line-height: 30px;
+        padding-top: 100px;
+        margin-top: 150px;
+    }
+    .no2 {
+        display: block;
+        margin-top: 50px;
+        line-height: 30px;
+        
+    }
+    .noo {
+        display: flex;
+        margin-left: -5px;
+    }
+    .txt5 {
+        color: gray;
+        text-align: center;
+        font-size: 30px;
+    }
+    .txt6 {
+        color: yellow;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    .img1 {
+        background-image: url(IMG_2079.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+        margin-left: 160px;
+        margin-top: 20px;
+    }
+    .img2 {
+        background-image: url(IMG_2080.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+        width: 170px;
+        margin-left: 140px;
+
+    }
+    .img3 {
+        background-image: url(IMG_2081.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 150px;
+        width: 180px;
+        margin-left: 120px;
+    }
+    .img4 {
+        background-image: url(IMG_2082.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 150px;
+        width: 140px;
+        margin-left: 150px;
+    }
+    .img5 {
+        background-image: url(IMG_2083.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 120px;
+        width: 150px;
+        margin-left: 150px;
+    }
+    .img6 {
+        background-image: url(IMG_2095.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+        width: 150px;
+        margin-left: 140px;
+    }
+    .txt7 {
+        height: 40px;
+        width: 200px;
+        background-color: rgb(0, 0, 0, 0.2);
+        color: yellow;
+        border: 1px gold solid;
+        border-radius: 5px;
+        margin-left: 300px;
+        margin-top: -50px;
+    }
+    .foot {
+        color: gray;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .foot2 {
+        background-color: whitesmoke;
+        text-align: center;
+        height: 20px;
+        border: 2px black solid;
+    }
+   a {
+        text-decoration: none;
+        color: black;
+    }
+    
+}
+   
 @media only screen and (max-width:470px){
     
     nav {
@@ -253,6 +549,9 @@ a {
         color: ghostwhite;
         font-size: 13px;
 
+    }
+    nav a:hover{
+        color: ghostwhite;
     }
     
 

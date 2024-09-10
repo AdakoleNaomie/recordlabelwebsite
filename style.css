@@ -6,8 +6,11 @@
 nav {
     display: flex;
     gap: 230px;
-    margin-left: 50px;
+    margin-left: 200px;
     padding-bottom: 10px;
+}
+nav a:hover{
+    color: gold;
 }
 .one {
     background-color: transparent;
@@ -78,6 +81,122 @@ a {
     display: none;
 
 }
+@media only screen and (max-width:780px)
+{
+    nav {
+        /* display: flex;
+        gap: 40px; */
+        display: none; 
+    }
+    
+    
+    .hsvg {
+        display: flex;
+        padding-top: 13px;
+        margin-left: -150px;
+        
+        
+    } 
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color: ghostwhite;
+        padding-top: 1px;
+        margin-left: -5px;
+        
+    }
+    .add {
+        width: 100px;
+        height: 50px;
+        color: white;
+        visibility: visible;
+    }
+    .box {
+        width: 100px;
+        height: 30px;
+        color: green;
+        float: left;
+        align-items: center;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        width: 420px;
+        height: 300px;
+        margin-left: -350px;
+        border-radius: 10px;
+    
+    
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-left: 310px;
+        margin-top: -5px;
+        
+        
+    }
+    .dropdown:hover  .dropdown-content {
+        display: block;
+        color: aliceblue;
+    }
+    ul a:hover {
+        color: goldenrod;
+    }
+    ul a {
+        display: block;
+        color: ghostwhite;
+        padding-top: 30px;
+        padding-left: 40px;
+        font-family: georgia;
+    }
+    .firstbg {
+        background-image: url(a2.jpeg);
+        height: 600px;
+        width: 100%;
+        animation-name: first;
+        animation-delay: -10s;
+        animation-duration: 40s;
+        animation-iteration-count: infinite;
+        background-size: cover;
+        background-position: center;
+    }
+    @keyframes first {
+        10%{background-image: url(a2.jpeg); }
+        30%{background-image: url(a4.webp);}
+        50%{background-image: url(a6.webp);}
+        70%{background-image: url(a7.jpg);}
+        85%{background-image: url(a12.jpg);}
+        100%{background-image: url(a10.jpg);}
+    }
+    .foot111 {
+        color: goldenrod ;
+        text-align: center;
+        font-size: 10px;
+        margin-top: 20px;
+        
+    }
+    .foot222 {
+        background-color: whitesmoke;
+        text-align: center;
+        height: 20px;
+        border: 2px black solid;
+    }
+   a {
+    text-decoration: none;
+        color: black;
+   }
+        
+    }
+
+
+
+
+    
+    
    
 @media only screen and (max-width:470px)
 {
@@ -132,6 +251,7 @@ a {
         position: relative;
         display: inline-block;
         margin-left: 200px;
+        
         
     }
     .dropdown:hover  .dropdown-content {

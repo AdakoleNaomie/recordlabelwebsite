@@ -12,7 +12,11 @@ nav {
     display: flex;
     gap: 140px; 
     height: 33px;
+    margin-left: 150px;
     
+}
+nav a:hover{
+    color: gold;
 }
 .one11 {
     background-color: black;
@@ -219,6 +223,273 @@ a {
 .lg {
     display: none;
 }
+ 
+@media only screen and (max-width:780px){
+
+    nav {
+        display: none; 
+    }
+    nav a:hover{
+        color: ghostwhite;
+    }
+    
+    .one11 {
+        background-color: black;
+        position: fixed;
+        z-index: 10;
+        width: 48em;
+        height: 4em;
+        border-bottom: 1px goldenrod solid;
+    }
+    
+    .hsvg {
+        display: flex;
+        padding-top: 13px;
+        margin-left: -180px;
+        
+        
+        
+    } 
+    h1 {
+        text-align: center;
+        font-size: 15px;
+        color: ghostwhite;
+        padding-top: 9px;
+        margin-left: -5px;
+        
+    }
+    h4 {
+        color: whitesmoke;
+        margin-top: 50px;
+    }
+    h3 {
+        text-align: center;
+        margin-top: 100px;
+        color: white;
+    
+    }
+    .first {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 200px;
+    }
+    .b {
+        height: 250px;
+        width: 250px;
+        background-image: url(a13.webp);
+        background-position: center;
+        background-size: cover;
+        margin-left: 250px;
+        margin-top: 50px;
+        border-radius: 10px;
+        animation-name: tems;
+        animation-duration: 10s;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+
+    }
+    @keyframes tems {
+        50%{background-image: url(a12.jpg);}
+        
+    }
+    .c{
+        height: 350px;
+        width: 400px;
+        background-image: url(a10.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-left: -20px;
+        margin-top: -20px;
+        animation-name: fave;
+        animation-duration: 10s;
+        animation-delay: 10s;
+        animation-iteration-count: infinite;
+        border-radius: 10px;
+    }
+    @keyframes fave {
+        50%{background-image: url(a9.jpg);}
+         
+    }
+    .d {
+        height: 250px;
+        width: 250px;
+        background-image: url(a2.jpeg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        animation-name: davido;
+        animation-duration: 10s;
+        animation-delay: 10s;
+        animation-iteration-count: infinite;
+        margin-left: 250px;
+        margin-top: -30px;
+    }
+    @keyframes davido {
+        50%{background-image: url(a1.jpg);}
+        
+    }
+    .d1 {
+        color: goldenrod;
+        padding-top: 100px;
+        font-size: 40px;
+        margin-left: -90px;
+        padding-bottom: 20px;
+    }
+    .d2 {
+        margin-left: -120px;
+        margin-top: 20px;
+        
+    }
+    
+    
+    
+        .d3 {
+            margin-left: 170px;
+            color: goldenrod;
+            font-size: 40px;
+            margin-bottom: -70px;
+        
+            
+        }
+        .d4 {
+            margin-left: 150px;
+            font-size: 15px;
+            text-align: start;
+            margin-bottom: 550px; 
+        }
+    .second {
+        display: block;
+        height: auto;
+        margin-left: 200px;
+        
+    }
+    .e {
+        background-image: url(a14.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+        width: 300px;
+        animation-name: asake;
+        animation-duration: 10s;
+        animation-delay: 10s;
+        animation-iteration-count: infinite;
+        margin-left: 200px;
+        margin-bottom: -20px;
+        border-radius: 10px;
+        
+        
+    
+        
+    }
+    @keyframes asake {
+        100%{background-image: url(a\ 18.jpg);}
+        
+    }
+    .f {
+        background-image: url(a17.webp);
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        width: 400px;
+        animation-name: omahlay;
+        animation-duration: 10s;
+        animation-delay: 10s;
+        animation-iteration-count: infinite;
+        margin-left: -40px;
+        margin-top: 1px;
+        border-radius: 10px;
+        
+    }
+    @keyframes omahlay {
+        100%{background-image: url(a15.jpg);}
+        
+    }
+    .g {
+        background-image: url(a16.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+        width: 300px;
+        animation-name: fireboy;
+        animation-duration: 10s;
+        animation-delay: 10s;
+        animation-iteration-count: infinite;
+        margin-left: 200px;
+        border-radius: 10px;
+        
+
+    }
+    @keyframes fireboy {
+        100%{background-image: url(a\ 19.jpg);}
+        
+    }
+    .add1 {
+        width: 100px;
+        height: 50px;
+        color: white;
+        visibility: visible;
+    }
+    .box1 {
+        width: 100px;
+        height: 30px;
+        color: green;
+        float: left;
+        align-items: center;
+    }
+    .dropdown-content1 {
+        display: none;
+        position: absolute;
+        color: white;
+        background-color: black;
+        z-index: 1;
+        width: 422px;
+        height: 300px;
+        margin-left: -350px;
+        border-radius: 10px;
+        animation: ease 1s;
+    }
+    .dropdown1 {
+        position: relative;
+        display: inline-block;
+        margin-left: 370px;
+        
+    }
+    .dropdown1:hover  .dropdown-content1 {
+        display: block;
+    }
+    ul a:hover {
+        color: whitesmoke;
+    }
+    ul a {
+        display: block;
+        color: goldenrod;
+        padding-top: 30px;
+        padding-left: 20px;
+        font-family: georgia;
+    } 
+    .foot1 {
+        color: goldenrod ;
+        text-align: center;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .foot22 {
+        background-color: whitesmoke;
+        text-align: center;
+        height: 20px;
+        border: 2px black solid;
+    }
+   a {
+        text-decoration: none;
+        color: black;
+    }
+        
+    
+    }
+       
+
+    
+
     
 
 @media only screen and (max-width:470px){
@@ -227,7 +498,9 @@ a {
         display: none;
          
     }
-    
+    nav a:hover{
+        color: ghostwhite;
+    }
     .one11 {
         background-color: black;
         position: fixed;
