@@ -496,6 +496,7 @@ a {
 
     nav {
         display: none;
+    
          
     }
     nav a:hover{
@@ -545,7 +546,7 @@ a {
         background-image: url(a13.webp);
         background-position: center;
         background-size: cover;
-        margin-left: 250px;
+        margin-left: 60px;
         margin-top: 50px;
         border-radius: 10px;
         animation-name: tems;
@@ -564,7 +565,7 @@ a {
         background-image: url(a10.jpg);
         background-position: center;
         background-size: cover;
-        margin-left: 70px;
+        margin-left: -120px;
         margin-top: -20px;
         animation-name: fave;
         animation-duration: 10s;
@@ -587,7 +588,7 @@ a {
         animation-duration: 10s;
         animation-delay: 10s;
         animation-iteration-count: infinite;
-        margin-left: 250px;
+        margin-left: 60px;
         margin-top: -30px;
     }
     @keyframes davido {
@@ -598,12 +599,13 @@ a {
         color: goldenrod;
         padding-top: 100px;
         font-size: 40px;
-        padding-left: 20px;
-        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-bottom: 10px;
     }
     .d2 {
         padding-left: 50px;
         margin-top: 20px;
+        margin-left: -220px;
         
     }
     
@@ -612,7 +614,7 @@ a {
             margin-left: 20px;
             color: goldenrod;
             font-size: 40px;
-            margin-bottom: -70px;
+            /* margin-bottom: -70px; */
         
             
         }
@@ -620,7 +622,7 @@ a {
             margin-left: 20px;
             font-size: 15px;
             text-align: start;
-            margin-bottom: 550px; 
+            
         }
     .second {
         display: block;
@@ -632,12 +634,12 @@ a {
         background-position: center;
         background-size: cover;
         height: 150px;
-        width: 200px;
+        width: 150px;
         animation-name: asake;
         animation-duration: 10s;
         animation-delay: 10s;
         animation-iteration-count: infinite;
-        margin-left: 200px;
+        margin-left: 60px;
         margin-bottom: -20px;
         border-radius: 10px;
         
@@ -659,7 +661,7 @@ a {
         animation-duration: 10s;
         animation-delay: 10s;
         animation-iteration-count: infinite;
-        margin-left: 50px;
+        margin-left: -160px;
         margin-top: 1px;
         border-radius: 10px;
         
@@ -673,12 +675,12 @@ a {
         background-position: center;
         background-size: cover;
         height: 150px;
-        width: 200px;
+        width: 150px;
         animation-name: fireboy;
         animation-duration: 10s;
         animation-delay: 10s;
         animation-iteration-count: infinite;
-        margin-left: 200px;
+        margin-left: 60px;
         border-radius: 10px;
         
 
