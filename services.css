@@ -87,6 +87,12 @@ header {
     border-radius: 5px;
     margin-top: 20px;
 }
+/* .no-container{
+    display: flex;
+    margin-left: -5px;
+    gap: 10rem;
+    align-items: center;
+} */
 .no1img {
     background-image: url(a1.jpg);
     height: 400px;
@@ -96,7 +102,15 @@ header {
     border-radius: 10px;
     margin-left: 800px;
     margin-top: -300px;
+    /* padding: 5rem;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 150ms; */
 }
+/* .no1img.show{
+    transform: translateX(0);
+    opacity: 0;
+} */
 .no22 {
     margin-left: 650px;
     line-height: 30px;
@@ -361,12 +375,21 @@ a {
         font-size: 1.5em;
 
 
+
     }
+    .no-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
     .no1 {
         margin-left: 10px;
         line-height: 30px;
-        margin-top: 200px;
+        margin-top: 150px;
     }
+   
     .txt3 {
         color: whitesmoke;
         font-size: 12px;
@@ -387,9 +410,17 @@ a {
         background-position: center;
         background-size: cover;
         border-radius: 10px;
-        margin-left: 400px;
-        margin-top: -310px;
+        padding: 5rem;
+        transform: translateX(100px);
+        opacity: 0;
+        transition: 150ms;
+
     }
+    .no1img.show {
+        transform: translateX(0);
+        opacity: 1;
+    }
+   
     .no1img2 {
         background-image: url(a9.jpg);
         height: 400px;
@@ -397,15 +428,23 @@ a {
         background-position: center;
         background-size: cover;
         border-radius: 10px;
-        margin-left:  20px;
-        margin-top: -280px;
+        padding: 5rem;
+        transform: translateX(100px);
+        opacity: 0;
+        transition: 150ms;
 
     }
+    .no1img2.show {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    
     .no22 {
         margin-left: 400px;
         line-height: 30px;
         padding-top: 100px; 
-        margin-top: 150px;
+        
         
     
     }
@@ -416,9 +455,15 @@ a {
         background-position: center;
         background-size: cover;
         border-radius: 10px;
-        margin-left: 400px;
-        margin-top: -330px;
+        padding: 5rem;
+        transform: translateX(100px);
+        opacity: 0;
+        transition: 150ms;
 
+    }
+    .no1img3.show {
+        transform: translateX(0);
+        opacity: 1;
     }
     .no1img4 {
         background-image: url(a15.jpg);
@@ -427,26 +472,41 @@ a {
         background-position: center;
         background-size: cover;
         border-radius: 10px;
-        margin-left: 20px;
-        margin-top: -330px;
+        padding: 5rem;
+        transform: translateX(100px);
+        opacity: 0;
+        transition: 150ms;
 
+    }
+    .no1img4.show {
+        transform: translateX(0);
+        opacity: 1;
     }
     .no33 {
         margin-left: 400px;
         line-height: 30px;
         padding-top: 100px;
-        margin-top: 150px;
+
     }
+    
     .no2 {
-        display: block;
+        display: flex;
+        flex-direction:column ;
         margin-top: 50px;
-        line-height: 30px;
+
         
     }
     .noo {
         display: flex;
+        flex-direction: column;
         margin-left: -5px;
+        gap: 1rem;
+        align-items: center;
     }
+    
+       
+
+    
     .txt5 {
         color: gray;
         text-align: center;
@@ -466,6 +526,14 @@ a {
         width: 100px;
         margin-left: 160px;
         margin-top: 20px;
+        padding: 5rem;
+        transform: translateX(100px);
+        opacity: 0;
+        transition: 150ms;
+    }
+    .img1.show {
+        transform: translateX(0);
+        opacity: 1;
     }
     .img2 {
         background-image: url(IMG_2080.jpg);
@@ -474,7 +542,6 @@ a {
         height: 100px;
         width: 170px;
         margin-left: 140px;
-
     }
     .img3 {
         background-image: url(IMG_2081.jpg);
@@ -483,6 +550,14 @@ a {
         height: 150px;
         width: 180px;
         margin-left: 120px;
+        padding: 5rem;
+        transform: translateX(100px);
+        opacity: 0;
+        transition: 150ms;
+    }
+    .img3.show {
+        transform: translateX(0);
+        opacity: 1;
     }
     .img4 {
         background-image: url(IMG_2082.jpg);
@@ -497,8 +572,16 @@ a {
         background-position: center;
         background-size: cover;
         height: 120px;
-        width: 150px;
+        width: 200px;
         margin-left: 150px;
+        padding: 4rem;
+        transform: translateX(100px);
+        opacity: 0;
+        transition: 150ms;
+    }
+    .img5.show {
+        transform: translateX(0);
+        opacity: 1;
     }
     .img6 {
         background-image: url(IMG_2095.jpg);
