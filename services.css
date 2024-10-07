@@ -102,15 +102,8 @@ header {
     border-radius: 10px;
     margin-left: 800px;
     margin-top: -300px;
-    /* padding: 5rem;
-    transform: translateX(100px);
-    opacity: 0;
-    transition: 150ms; */
 }
-/* .no1img.show{
-    transform: translateX(0);
-    opacity: 0;
-} */
+
 .no22 {
     margin-left: 650px;
     line-height: 30px;
@@ -151,6 +144,7 @@ header {
     margin-top: -300px;
 
 }
+
 .no33 {
     margin-left: 550px;
     line-height: 30px;

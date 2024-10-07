@@ -9,15 +9,17 @@ body {
 }
 nav {
     display: flex;
-    gap: 10px; 
-    height: 33px;
-    margin-left: 50px;
-    
+    gap: 230px;
+    margin-left: 200px;
+    margin-top: 10px;
 }
-
 nav a:hover{
     color: gold;
-    
+}
+nav a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 0.8em;
 }
 .one111 {
     background-color: black;
@@ -30,19 +32,9 @@ nav a:hover{
     display: flex;
     justify-content: center;
     gap: 5px;
-    margin-top: 1px;
-
-
-    
+    margin-top: 1px;   
 }
-nav a {
-    text-decoration: none;
-    color: ghostwhite;
-    margin-top: 15px;
-    font-size: 15px;
-    
-      
-}
+
 .hh {
     font-size: 30px;
     padding-top: 40px;

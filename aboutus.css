@@ -10,13 +10,17 @@ body {
 }
 nav {
     display: flex;
-    gap: 140px; 
-    height: 33px;
-    margin-left: 150px;
-    
+    gap: 230px;
+    margin-left: 200px;
+    margin-top: 10px;
 }
 nav a:hover{
     color: gold;
+}
+nav a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 0.8em;
 }
 .one11 {
     background-color: black;
@@ -32,14 +36,7 @@ nav a:hover{
     margin-top: 1px;
     
 }
-nav a {
-    text-decoration: none;
-    color: ghostwhite;
-    margin-top: 15px;
-    font-size: 11px;
-    margin-left: 85px;
-      
-}
+
 .hh {
     font-size: 30px;
     padding-top: 40px;
@@ -79,7 +76,7 @@ h3 {
     padding: 2rem;
     transform: translateX(100px);
     opacity: 0;
-    transition: 150ms;
+    transition: 1000ms;
 
 }
 .b.show{
@@ -122,7 +119,7 @@ h3 {
     padding: 1rem;
     transform: translateX(100px);
     opacity: 0;
-    transition: 150ms;
+    transition: 1000ms;
 
 }
 .d.show{
@@ -179,7 +176,7 @@ h3 {
     padding: 5rem;
     transform: translateX(100px);
     opacity: 0;
-    transition: 150ms;
+    transition: 1000ms;
 
 }
 .e.show{
@@ -224,7 +221,7 @@ h3 {
     padding: 5rem;
     transform: translateX(100px);
     opacity: 0;
-    transition: 150ms;
+    transition: 1000ms;
 
 }
 .g.show{
@@ -591,7 +588,7 @@ a {
         padding: 5rem;
         transform: translateX(100px);
         opacity: 0;
-        transition: 150ms;
+        transition: 1000ms;
 
     }
     .b.show{
@@ -645,7 +642,7 @@ a {
         padding: 5rem;
         transform: translateX(100px);
         opacity: 0;
-        transition: 150ms;
+        transition: 1000ms;
 
     }
     .d.show{
@@ -706,7 +703,7 @@ a {
         padding: 5rem;
         transform: translateX(100px);
         opacity: 0;
-        transition: 150ms;
+        transition: 1000ms;
 
     }
     .e.show{
@@ -751,7 +748,7 @@ a {
         padding: 5rem;
         transform: translateX(100px);
         opacity: 0;
-        transition: 150ms;
+        transition: 1000ms;
 
     }
     .g.show{
